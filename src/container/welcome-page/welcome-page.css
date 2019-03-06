@@ -1,0 +1,24 @@
+.login-form-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+}
+
+.form-container{
+    border: 1px solid #00b7ff;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.login-form{
+    padding: 60px;
+}
+
+@media screen and (max-width: 400px) {
+    .login-form{
+        padding: 10px;
+    }
+}

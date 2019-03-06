@@ -1,0 +1,17 @@
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo:hover{
+    box-shadow: none;
+}
+
+.logo-image{
+    max-height:50px;
+    max-width: 50px;
+    height: auto;
+    width: auto;
+}

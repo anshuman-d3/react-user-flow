@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Game-of-Thrones;
+    src: url(../../static/Game-of-Thrones.ttf)
+}
+
+/*.user-page{*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+/*}*/
+
+.layout{
+    align-self: flex-start;
+    width: 100%;
+    /*height: 100%;*/
+    background: #f9f9f9;
+}
+
+.content-div{
+    position: relative;
+    /*display: flex;*/
+    padding: 50px;
+}
+
+.content{
+    padding: 50px;
+}
+
+.images-div{
+    /*padding: 50px;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image{
+    display: block;
+    max-width: 320px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+}
+
+.image:hover{
+    box-shadow: 1px 8px 20px rgba(128, 128, 128, 0.62);
+}
+
+.name{
+
+}
+
+.tagline{
+    font-family: Game-of-Thrones;
+    font-size: x-large;
+}
+
+.footer{
+    margin-top: 50px;
+}
