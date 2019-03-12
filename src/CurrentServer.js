@@ -1,1 +1,1 @@
-export const CURRENT_SERVER = "http://192.168.1.22:8080/";
+export const CURRENT_SERVER = "https://puc-assignment.herokuapp.com/";
